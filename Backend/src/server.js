@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5001;
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 
 // middleware
 // if (process.env.NODE_ENV !== "production") {
